@@ -7,8 +7,8 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
-      input: '/index.html',
+      input: 'index.html', // без слеша
     },
   },
-  base: './', 
+  base: './', // относительные пути
 });
