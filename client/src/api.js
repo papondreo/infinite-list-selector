@@ -31,9 +31,11 @@ export const addItem = async id => {
 
 
 export const reorderItem = async (fromIndex, toIndex) => {
+  
   await fetch("/api/reorder", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ from: fromIndex, to: toIndex })
   });
+
 };
