@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "cd server/client && npm install && npm run build",
     "start": "node server/src/server.js"
   },
   "dependencies": {
