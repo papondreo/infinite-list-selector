@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "cd server/client && npm install && npm run build",
+    "build": "cd client && npm install && npm run build",
     "start": "node server/src/server.js"
   },
   "dependencies": {
@@ -10,3 +10,4 @@
     "dotenv": "^16.4.5"
   }
 }
+
